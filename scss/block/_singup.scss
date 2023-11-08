@@ -1,0 +1,75 @@
+#singup{
+    background-color: #e8ecff4d;
+}
+.singup-title{
+    color: #058AFF;
+    font-size: 31.25px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.singup-text{
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+form{
+    text-align: center;
+    border: 1px solid #D5E1EB;
+    border-radius: 10px;
+    display: inline-block;
+}
+.singup-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    display: inline-block;
+    position: relative;
+    padding-left: 65px;
+    &::before{
+        content: url(/img/mal.svg);
+        display: inline-block;
+        width: 32px;
+        height: 25px;
+        position: absolute;
+        left: 19px;
+        top: 28px;
+    }
+}
+#email{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 256px;
+    height: 35px;
+    &:hover {
+        width: 257px;
+        height: 36px;
+    }
+    &:current {
+        border-bottom: 2px solid #058AFF;
+    }
+}
+[placeholder]{
+    color: #4D4D4D;
+    font-size: 20px;
+    font-weight: 400;
+    top: 31px;
+    left: 29px;
+}
+#singup-btn{
+    background: #0082F4;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 28px;
+    border: none;
+}
+.singup-box{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}

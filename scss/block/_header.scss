@@ -1,0 +1,37 @@
+#head{
+    border-bottom: 2px solid #E6F3FE;
+    overflow-y: hidden;
+}
+.head-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+}
+.head-list{
+    display: flex;
+    gap: 40px;
+}
+.head-item-link{
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    height: 56px;
+    margin-top: 5px;
+}
+.head-item-link:hover{
+    color: #0082F4;
+    border-bottom:  2px solid #0082F4;
+}
+.current{
+    color: #0082F4;
+    border-bottom:  2px solid #0082F4;
+}
+.head-link{
+    border-radius: 6px;
+    background: #0082F4;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 14px 30px;
+}
